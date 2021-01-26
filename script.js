@@ -2,7 +2,7 @@ const jokeEl = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
 
 
-
+// using ASYNC/AWAIT
 const generateJoke = async () => {
   const config = {
     headers: {
@@ -18,6 +18,7 @@ const generateJoke = async () => {
     
 }
 
+// Using .then
 // const generateJoke = () => {
 //   const config = {
 //     headers: {
